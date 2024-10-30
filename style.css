@@ -1,0 +1,102 @@
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+.a{
+    color: blueviolet;
+}
+#b{
+    color: red;
+    background-color: yellowgreen;
+    width: 50vw;
+    height: 20vh;
+}
+.c{
+    color:blue;
+    background-color: turquoise;
+    width: 200px;
+    height: 100px;
+}
+.d{
+    color:green;
+    background-color: orange;
+    width: 100%;
+    height: 10%;
+}
+.e{
+    font-family: playFair Display;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-decoration:underline;
+}
+#f{
+    text-transform: capitalize;
+    font-size: 5vw;
+}
+.g{
+    font-weight: 500;
+    line-height:1.9;
+}
+#h{
+   
+    text-align: left;
+}
+#i{
+    width: 300px;
+    background-color: rgb(238, 155, 155);
+    padding: 20px;
+    margin: 30px;
+}
+.j{
+    padding:20px;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(216, 176, 253);
+    border: 5px solid rgb(16, 14, 14);
+    border-radius: 50px;
+}
+p{
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: red;
+    border: 5px solid;
+    display:inline-block;
+}
+.car1{
+width: 200px;
+height: 200px;
+background-color: rgb(231, 118, 118);
+}
+.car2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(57, 184, 91);
+    position: absolute;
+}
+.car3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(227, 142, 44);
+}
+.xyz{
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    margin: 100px;
+    background: url(http://www.new-startups.com/wp-content/uploads/unsplash-images-free.jpg);
+    background-size: cover;
+    background-position:right;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right , red , yellowgreen , blueviolet);
+}
