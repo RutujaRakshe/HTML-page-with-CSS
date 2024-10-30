@@ -98,5 +98,74 @@ background-color: rgb(231, 118, 118);
 .box{
     width: 200px;
     height: 200px;
+margin-bottom: 20px;
     background: linear-gradient(to right , red , yellowgreen , blueviolet);
+}
+#element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: yellowgreen;
+}
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#two{
+    width: 100px;
+    height: 100px;
+    background-color:orange;
+}
+#three{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(240, 37, 192);
+}
+h3::before{
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 200px;
+    color: purple;
+}
+p{
+    width: fit-content;
+    background-color: greenyellow;
+    position: relative;
+}
+p::after{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: '';
+    color: purple;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+
+}
+h1::first-line{
+    color: rgb(153, 247, 132);
+}
+h2::first-letter{
+
+    font-size: 50px;
+}
+h3::selection{
+    color:red;
+}
+h4:hover{
+    color: rgb(85, 213, 113);
+}
+button:active{
+    background-color: blueviolet;
+}
+input:focus{
+    background-color: yellowgreen;
+}
+p:nth-child(2n){
+    color: rgb(18, 239, 99)    ;
 }
