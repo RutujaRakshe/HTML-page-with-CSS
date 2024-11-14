@@ -169,3 +169,14 @@ input:focus{
 p:nth-child(2n){
     color: rgb(18, 239, 99)    ;
 }
+#nav{
+    display: grid;
+    grid-template-columns: 60% 10% 10% 10% 10%;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 0 20px;
+}
+#nav h1{
+    justify-self: start;
+}
